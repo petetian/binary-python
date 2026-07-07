@@ -1,6 +1,7 @@
-def main() -> None:
-    import sys
+import sys
 
+
+def main() -> None:
     version = sys.version_info
     print(f"Hello from Python {version.major}.{version.minor}.{version.micro}!")
 
