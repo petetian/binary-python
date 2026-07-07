@@ -13,6 +13,7 @@ is shipped to end users**.
 | `app/helloworld.py` | Hello World Python source script |
 | `Dockerfile` | Multi-stage build: compile with Nuitka → copy binary only |
 | `test-guide.md` | Step-by-step guide to verify source code is invisible |
+| `LICENSE` | MIT license terms for this repository |
 
 ---
 
@@ -79,3 +80,9 @@ to guarantee a Linux binary.
 
 See [`test-guide.md`](test-guide.md) for a complete walk-through that demonstrates
 no Python source code or Python interpreter exists inside the distributed image.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
